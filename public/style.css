@@ -3,7 +3,6 @@
     --main: #1e5eff;
     --main-dark: #1240b8;
     --dark: #111827;
-    --light: #f4f6fb;
     --text: #1f2937;
 }
 
@@ -91,21 +90,16 @@ nav a:hover {
 .button {
     display: inline-block;
     padding: 12px 28px;
-    background: var(--main);
-    color: white;
+    background: white;
+    color: var(--main);
     text-decoration: none;
     border-radius: 8px;
     font-weight: bold;
-    transition: background 0.2s;
+    transition: opacity 0.2s;
 }
 
 .button:hover {
-    background: var(--main-dark);
-}
-
-.hero .button {
-    background: white;
-    color: var(--main);
+    opacity: 0.85;
 }
 
 /* ===== Sections ===== */
@@ -118,10 +112,6 @@ nav a:hover {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.section.alt {
-    background: var(--light);
 }
 
 .section h2 {
@@ -148,20 +138,6 @@ nav a:hover {
     font-size: 2.5rem;
     font-weight: bold;
     color: var(--main);
-}
-
-/* ===== Sponsors ===== */
-.sponsor-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 20px;
-}
-
-.sponsor {
-    padding: 40px 20px;
-    border: 2px dashed #cbd5e1;
-    border-radius: 10px;
-    color: #64748b;
 }
 
 /* ===== Footer ===== */

@@ -44,7 +44,7 @@ const statsObserver = new IntersectionObserver((entries) => {
 });
 
 // Set your real numbers here
-const statNumbers = { Members: 12, Competitions: 3, Awards: 1 };
+const statNumbers = { Members: 5, Competitions: 0, Awards: 0 };
 
 document.querySelectorAll(".stat").forEach((stat) => {
     const label = stat.querySelector(".label").textContent;
