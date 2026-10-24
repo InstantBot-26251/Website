@@ -312,14 +312,25 @@ a.card:hover {
   text-align: center;
 }
 
-.member .photo {
-  width: 120px;
-  height: 120px;
-  margin: 0 auto 14px;
-  border-radius: 50%;
-  background: var(--light);
-  border: 2px solid var(--border);
-  object-fit: cover;
+.member-group {
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.member-group h2 {
+  font-size: 1.5rem;
+  color: var(--main);
+}
+
+.member-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.member-grid .card {
+  width: 220px;
 }
 
 /* ===== Sponsors / gallery (empty for now) ===== */

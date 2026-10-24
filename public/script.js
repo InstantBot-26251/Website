@@ -6,8 +6,8 @@ const NAV = [
   {
     label: "Our Team",
     items: [
-      ["About Us", "/team/"],
-      ["Members", "/team/#members"],
+      ["About Us", "/team/about/"],
+      ["Members", "/team/members/"],
     ],
   },
   {
@@ -21,22 +21,22 @@ const NAV = [
   {
     label: "Sponsors",
     items: [
-      ["Our Sponsors", "/sponsors/"],
-      ["Become a Sponsor", "/sponsors/#become-a-sponsor"],
+      ["Our Sponsors", "/sponsors/our-sponsors/"],
+      ["Become a Sponsor", "/sponsors/become-a-sponsor/"],
     ],
   },
   {
     label: "Our Robot",
     items: [
-      ["Current Robot", "/robot/"],
-      ["Gallery", "/robot/#gallery"],
+      ["Current Robot", "/robot/current-robot/"],
+      ["Gallery", "/robot/gallery/"],
     ],
   },
   {
     label: "Contact",
     items: [
-      ["Contact Us", "/contact/"],
-      ["Join the Team", "/contact/#join"],
+      ["Contact Us", "/contact/contact-us/"],
+      ["Join the Team", "/contact/join-the-team/"],
     ],
   },
 ];
