@@ -2,9 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FTC 26251</title>
+    <meta name="description" content="FTC Team 26251, a FIRST Tech Challenge robotics team.">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- Navigation bar -->
+<header class="navbar">
+    <a href="#home" class="logo">FTC 26251</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    <nav id="navLinks">
+        <a href="#about">About</a>
+        <a href="#robot">Robot</a>
+        <a href="#sponsors">Sponsors</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- Big intro section -->
+<section class="hero" id="home">
+    <h1>FTC 26251</h1>
+    <p>A FIRST Tech Challenge robotics team</p>
+    <a href="#about" class="button">Meet the Team</a>
+</section>
+
+<!-- About -->
+<section class="section fade-in" id="about">
+    <h2>About Us</h2>
+    <p>
+        We are FTC Team 26251, a group of students who design, build, and program
+        robots to compete in the FIRST Tech Challenge. Along the way we learn
+        engineering, coding, teamwork, and outreach.
+    </p>
+    <div class="stats">
+        <div class="stat"><span class="number">0</span><span class="label">Members</span></div>
+        <div class="stat"><span class="number">0</span><span class="label">Competitions</span></div>
+        <div class="stat"><span class="number">0</span><span class="label">Awards</span></div>
+    </div>
+</section>
+
+<!-- Robot -->
+<section class="section alt fade-in" id="robot">
+    <h2>Our Robot</h2>
+    <p>
+        Each season we build a new robot for that year's game. Check back soon for
+        photos and details about this season's robot!
+    </p>
+</section>
+
+<footer>
+    <p>&copy; <span id="year"></span> FTC Team 26251. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>

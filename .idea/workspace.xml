@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3668fa19-b728-49a2-aa2b-769d5587bf0f" name="Changes" comment="made tempory files for website.">
       <change afterPath="$PROJECT_DIR$/public/script.js" afterDir="false" />
